@@ -4,7 +4,7 @@ c1.addEventListener('click', changeColor);
 
 // cell2: ダブルクリックすると色が変わる
 let c2 = document.querySelector('#cell2');
-c2.addEventListener('click', changeColor);
+c2.addEventListener('dblclick', changeColor);
 
 // cell3: マウスポインタが上に来ると色が変わる
 let c3 = document.querySelector('#cell3');
@@ -28,11 +28,11 @@ c7.addEventListener('click', changeColor);
 
 // cell8: キーボードのキー入力すると色が変わる
 let c8 = document.querySelector('#cell8');
-c8.addEventListener('click', changeColor);
+c8.addEventListener('keypress', changeColor);
 
 // cell9: キーボードのキーを押すと色が変わる
 let c9 = document.querySelector('#cell9');
-c9.addEventListener('click', changeColor);
+c9.addEventListener('keydown', changeColor);
 
 // cell10: キーボードのキーを離すと色が変わる
 let c10 = document.querySelector('#cell10');
