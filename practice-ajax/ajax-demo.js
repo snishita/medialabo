@@ -9,6 +9,7 @@ function sendRequest() {
 	// URL を設定
 	let url = 'https://www.nishita-lab.org/web-contents/jsons/nhk/' + key + '-' + key2 + '-j.json';
 
+
 	// 通信開始
 	axios.get(url)
 		.then(showResult)
