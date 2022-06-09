@@ -4,8 +4,10 @@ b.addEventListener('click', sendRequest);
 
 // 通信を開始する処理
 function sendRequest() {
+	let e = document.querySelector('#aaa');
+	let key = e.value;
 	// URL を設定
-	let url = 'https://www.nishita-lab.org/web-contents/jsons/test.json';
+	let url = 'https://www.nishita-lab.org/web-contents/jsons/nhk/' + key + '-' + key2 + '-j.json';
 
 	// 通信開始
 	axios.get(url)
