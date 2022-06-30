@@ -1,0 +1,21 @@
+DOM　API　では次のことができる
+
+・要素の検索
+    - １つだけ検索      querySelector(セレクタ)
+    - 全部検索          querySelectorAll(セレクタ)
+・要素の作成            createElement(タグ名)
+・要素の削除            remove()
+・要素の追加            insertAdjacentElement(位置, 要素)
+・要素の中のテキストを見る、書き換える     textContent
+
+
+・CSSを設定する
+
+・クラスを追加する
+・クラスを持っているか確認する
+
+課題４－２
+・前回使った tv-program.js, hotpepper.js, weather.js をそのまま使ってください。
+・Console.log（）の部分を書き換えて、ページにデータを表示しましょう。
+
+練習、４－８，４－９、４－１１，４－１２
