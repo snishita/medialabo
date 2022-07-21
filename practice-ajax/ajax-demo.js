@@ -4,8 +4,12 @@ b.addEventListener('click', sendRequest);
 
 // 通信を開始する処理
 function sendRequest() {
+	// 検索キーを取得
+	service = 'e1';
+	genre = '0700';
 	// URL を設定
-	let url = 'https://www.nishita-lab.org/web-contents/jsons/test.json';
+	//let url = 'https://www.nishita-lab.org/web-contents/jsons/test.json';
+	let url = 'https://www.nishita-lab.org/web-contents/jsons/nhk/' + service + '-' + genre + '-j.json';
 
 	// 通信開始
 	axios.get(url)
@@ -27,8 +31,6 @@ function showResult(resp) {
 	// data をコンソールに出力
 	console.log(data);
 
-	// data.x を出力
-	console.log(data.x);
 }
 
 // 通信エラーが発生した時の処理
@@ -40,3 +42,11 @@ function showError(err) {
 function finish() {
 	console.log('Ajax 通信が終わりました');
 }
+
+
+
+******************************************
+**  レポートの提出締め切り：　７月２８日（木）２３：５９
+*******************************************
+
+GitHubにプッシュすることを忘れない
